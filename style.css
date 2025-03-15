@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    background-color: #0A0A0A;
+    color: #E0E0E0;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #00B4FF;
+}
+
+a {
+    color: #00B4FF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0088CC;
+}
+
+/* Navigation */
+.navbar {
+    padding: 1rem 0;
+    border-bottom: 1px solid #333;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-family: fantasy;
+}
+
+/* Home Page Styles */
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.lead {
+    color: #E0E0E0;
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+/* Market Ticker */
+.ticker-item {
+    background: #1A1A1A;
+    border-radius: 8px;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.price-up { color: #00C853; }
+.price-down { color: #FF1744; }
+
+/* Features Section */
+.feature-card {
+    background: #1A1A1A;
+    border: 1px solid #333;
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Trading Page Styles */
+#tradingview-chart {
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.list-group-item {
+    background-color: #1A1A1A;
+    color: #E0E0E0;
+    border-color: #333;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #00B4FF;
+    border-color: #00B4FF;
+    padding: 0.75rem 1.5rem;
+}
+
+.btn-outline-primary {
+    border-color: #00B4FF;
+    color: #00B4FF;
+}
+
+.btn-outline-primary:hover {
+    background-color: #00B4FF;
+    color: #0A0A0A;
+}
+
+/* Form Styles */
+.form-control {
+    background-color: #1A1A1A;
+    border: 1px solid #333;
+    color: #E0E0E0;
+}
+
+.form-control:focus {
+    background-color: #1A1A1A;
+    border-color: #00B4FF;
+    color: #E0E0E0;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid #333;
+    margin-top: 2rem;
+}
